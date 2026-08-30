@@ -1,0 +1,34 @@
+/* Styling for the search bar */
+.search-bar {
+    padding: 8px 12px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+/* Styling for the favorites area */
+.favoritesArea {
+    height: 20vh;
+    overflow: auto;
+}
+/* Styling for buttons */
+.btn {
+    margin-bottom: 3px;
+    text-align: left;
+}
+/* Styling for links inside buttons */
+.btn-link a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+/* Hover effect for links inside buttons */
+.btn-link a:hover {
+    color: var(--hover-color);
+}
+/* Styling for danger buttons */
+.btn-danger {
+    background-color: red;
+    padding: 5px;
+    height: 35px;
+    align-items: center;
+}

@@ -1,0 +1,43 @@
+/* Styles for individual list items in the animal list */
+.animalListItem{
+    /* Text color using a CSS variable */
+    color: var(--link-secondary);
+    /* Background color using a CSS variable */
+    background-color: var(--bg-secondary);
+    /* Change cursor to pointer on hover */
+    cursor: pointer;
+    /* Remove default border */
+    border:none;
+    /* Add rounded corners */
+    border-radius: 5px;
+    /* Add spacing between list items */
+    margin-bottom: 2px;
+    /* Align text evenly */
+    text-align: justify;
+}
+
+/* Hover effect for animal list items */
+.animalListItem:hover{
+    /* Underline text on hover */
+    text-decoration: underline;
+    /* Change background color on hover */
+    background-color: darkgrey;
+    /* Change text color using a CSS variable */
+    color: var(--hover-color);
+}
+
+/* Styles for a dropdown menu with a scrollable area */
+.dropdown-menu {
+    /* Limit the maximum height of the menu */
+    max-height: 300px;
+    /* Add vertical scroll if content overflows */
+    overflow-y: auto;
+    /* Ensure dropdown takes full width */
+    width: 100%;
+}
+
+/* Styles for h3 heading */
+h3 {
+    /* Set font size for h3 */
+    font-size: 16px;
+}
