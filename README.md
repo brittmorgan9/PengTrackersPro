@@ -1,7 +1,5 @@
 # Welcome!
 
-![Logo](./src/samplelogo.png)
-
 Welcome to PengTrackersPro! This app gives you easy access to viewing nesting site locations and summaries for many different penguin species. It's purpose is to be informative and fun! 
 
 ## How to start
